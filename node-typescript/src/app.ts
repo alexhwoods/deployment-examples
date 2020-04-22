@@ -1,4 +1,4 @@
-const rookout = require('rookout');
+import * as rookout from 'rookout';
 // You can either specify your token here as an option map, or don't specify it and instead use the ROOKOUT_TOKEN
 // environment variable to specify it.
 rookout.start({ token: process.env.ROOKOUT_TOKEN });
